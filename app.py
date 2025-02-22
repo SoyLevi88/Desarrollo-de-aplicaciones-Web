@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():  # put application's code here
-    return 'Practica Web'
+    return 'Practica Web nuevamente'
 
 #Nueva ruta para mostrar un mensaje personalizado
 @app.route('/usuario/<nombre>')
