@@ -16,6 +16,15 @@
             </ul>
         </nav>
     </header>
+    <header>
+        <h1>Mi Formulario</h1>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('index') }}">Inicio</a></li>
+                <li><a href="{{ url_for('about') }}">Acerca de</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
         {% block content %}{% endblock %}
     </main>
